@@ -12,7 +12,7 @@ public class NRename extends JavaPlugin {
         getLogger().info("NRename включен!");
         getCommand("rename").setExecutor(new RenameCommand(this));
         getCommand("nrename").setExecutor(this);
-        saveDefaultConfig(); // Создаёт config.yml, если отсутствует
+        saveDefaultConfig();
     }
 
     @Override
