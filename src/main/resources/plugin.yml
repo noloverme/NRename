@@ -1,0 +1,27 @@
+name: "${project.artifactId}"
+version: "${project.version}"
+main: com.noloverme.NRename.NRename
+api-version: 1.16 # Или более поздняя версия, если необходимо
+authors: [noloverme]
+description: Позволяет переименовывать предметы.
+commands:
+  rename:
+    description: Переименовывает предмет в вашей руке.
+    usage: /rename <название>
+    aliases: [setname]
+    permission: nrename.rename
+  nrename:
+    description: Основная команда плагина
+    usage: /nrename reload
+    aliases: [nreload]
+    permission: nrename.reload
+permissions:
+  nrename.rename:
+    description: Позволяет переименовывать предметы.
+    default: op
+  nrename.bypasslore:
+    description: Разрешает обходить добавление описания к предмету.
+    default: op
+  nrename.reload:
+    description: Позволяет перезагружать конфигурацию плагина.
+    default: op

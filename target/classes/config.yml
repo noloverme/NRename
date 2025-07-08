@@ -1,0 +1,21 @@
+# Сообщения плагина
+messages:
+  no-item-in-hand: "&cУ вас ничего нет в руке."
+  rename-success: "&aПредмет переименован в &f%name%"
+  rename-reset: "&aНазвание предмета сброшено."
+  lore-format: "&7Переименовано игроком &f%player%"
+  invalid-hex-color: "&cНедопустимый HEX-код цвета: %color%"
+  reload-usage: "&cИспользование: /nrename reload"
+  reload-success: "&aКонфигурация перезагружена!"
+  permission-message: "&cУ вас нет прав для выполнения этой команды."
+  no-permission: "&cУ вас нет прав на выполнение этой команды."
+  name-too-long: "&cИмя слишком длинное! Максимум &f%max%&c символов (без учёта цвета)."
+  empty-name: "&cНазвание не может быть пустым."
+  not-a-player: "&cЭта команда может быть выполнена только игроком."
+  usage: "&cИспользование: /rename <название> или /rename reset"
+  meta-error: "&cОшибка: невозможно получить мета предмета."
+
+# Настройки плагина
+settings:
+  add-lore: true
+  max-name-length: 30
